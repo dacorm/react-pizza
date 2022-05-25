@@ -8,6 +8,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 645px) {
+      flex-direction: column;
+
+      .header__cart {
+        margin-top: 20px;
+      }
+    }
+
   }
 
   &__logo {
@@ -27,6 +36,7 @@
 
     p {
       color: #7b7b7b;
+      text-align: left;
     }
   }
 }
