@@ -9,6 +9,7 @@
 - **React Hooks** (хуки)
 - **Prettier** (форматирование кода)
 - **Webpack**
+- **React Router v6**
 - CSS-Modules / SCSS (стилизация)
 
 
