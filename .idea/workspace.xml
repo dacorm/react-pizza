@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: react router include">
+    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: adaptive and cart">
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -67,7 +68,18 @@
       <workItem from="1653410432117" duration="7804000" />
       <workItem from="1653422989481" duration="5087000" />
       <workItem from="1653459824017" duration="2875000" />
-      <workItem from="1653462945404" duration="13834000" />
+      <workItem from="1653462945404" duration="14215000" />
+      <workItem from="1653478214035" duration="203000" />
+      <workItem from="1653482190046" duration="13000" />
+      <workItem from="1653650379363" duration="76000" />
+      <workItem from="1653670754933" duration="32000" />
+      <workItem from="1653999095711" duration="9000" />
+      <workItem from="1654027003574" duration="2952000" />
+      <workItem from="1654091356272" duration="373000" />
+      <workItem from="1654092401145" duration="758000" />
+      <workItem from="1654094585329" duration="2178000" />
+      <workItem from="1654113527959" duration="17000" />
+      <workItem from="1654375586079" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pizza online store create">
       <created>1653418426341</created>
@@ -125,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653472791325</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: adaptive and cart">
+      <created>1653477870897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653477870897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +171,7 @@
     <MESSAGE value="fix: sort popup fix" />
     <MESSAGE value="feat: popup show selected list" />
     <MESSAGE value="feat: react router include" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: react router include" />
+    <MESSAGE value="feat: adaptive and cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adaptive and cart" />
   </component>
 </project>
