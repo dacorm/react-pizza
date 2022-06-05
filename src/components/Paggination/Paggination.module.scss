@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  li {
+    margin: 0 10px 0 0;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: #fe5f1e;
+    line-height: 20px;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid #fe5f1e;
+    border-radius: 30px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fe5f1e;
+      transform: scale(1.25);
+      color: #181818;
+    }
+  }
+
+  :global {
+    .selected a{
+      background-color: #fe5f1e;
+      color: #181818;
+      border: 1px solid #fe5f1e;
+      border-radius: 30px;
+    }
+  }
+}

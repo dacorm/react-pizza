@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: adaptive and cart">
-      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/index.jsx" afterDir="false" />
+    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: pizza search and sort">
+      <change afterPath="$PROJECT_DIR$/src/components/Paggination/Paggination.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Paggination/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,8 @@
       <workItem from="1654092401145" duration="758000" />
       <workItem from="1654094585329" duration="2178000" />
       <workItem from="1654113527959" duration="17000" />
-      <workItem from="1654375586079" duration="4436000" />
+      <workItem from="1654375586079" duration="4567000" />
+      <workItem from="1654452770575" duration="4120000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pizza online store create">
       <created>1653418426341</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653477870897</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: pizza search and sort">
+      <created>1654380177135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654380177135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,7 @@
     <MESSAGE value="feat: popup show selected list" />
     <MESSAGE value="feat: react router include" />
     <MESSAGE value="feat: adaptive and cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adaptive and cart" />
+    <MESSAGE value="feat: pizza search and sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: pizza search and sort" />
   </component>
 </project>
