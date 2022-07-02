@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: deploy">
+    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="fix: deploy">
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Paggination/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paggination/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="29cQuExEgX7EZaX2KG3qqk6kf1G" />
   <component name="ProjectViewState">
@@ -29,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\dev\react-pizza\src\redux\slices" />
       <recent name="C:\Users\user\dev\react-pizza\src\components\PizzaBlock" />
       <recent name="C:\Users\user\dev\react-pizza\src\assets" />
       <recent name="C:\Users\user\dev\react-pizza\src" />
@@ -75,6 +96,18 @@
       <workItem from="1654375586079" duration="4567000" />
       <workItem from="1654452770575" duration="4670000" />
       <workItem from="1654457622763" duration="50000" />
+      <workItem from="1654467611186" duration="52000" />
+      <workItem from="1654467774966" duration="205000" />
+      <workItem from="1654467996353" duration="436000" />
+      <workItem from="1654522625025" duration="17000" />
+      <workItem from="1654535732668" duration="4174000" />
+      <workItem from="1654602389125" duration="5948000" />
+      <workItem from="1654636674106" duration="26000" />
+      <workItem from="1655465322510" duration="2514000" />
+      <workItem from="1655474469557" duration="84000" />
+      <workItem from="1655565956533" duration="5545000" />
+      <workItem from="1655725644069" duration="10000" />
+      <workItem from="1656761260277" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pizza online store create">
       <created>1653418426341</created>
@@ -160,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654457567671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix: deploy">
+      <created>1654467649444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654467649444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +231,7 @@
     <MESSAGE value="feat: pizza search and sort" />
     <MESSAGE value="feat: paggination" />
     <MESSAGE value="feat: deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: deploy" />
+    <MESSAGE value="fix: deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: deploy" />
   </component>
 </project>
