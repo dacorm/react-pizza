@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: redux">
+    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="fix: deploy">
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <workItem from="1655474469557" duration="84000" />
       <workItem from="1655565956533" duration="5545000" />
       <workItem from="1655725644069" duration="10000" />
-      <workItem from="1656761260277" duration="2422000" />
+      <workItem from="1656761260277" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pizza online store create">
       <created>1653418426341</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656762945715</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix: deploy">
+      <created>1656763716630</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656763716630</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,8 +233,8 @@
     <MESSAGE value="feat: pizza search and sort" />
     <MESSAGE value="feat: paggination" />
     <MESSAGE value="feat: deploy" />
-    <MESSAGE value="fix: deploy" />
     <MESSAGE value="feat: redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: redux" />
+    <MESSAGE value="fix: deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: deploy" />
   </component>
 </project>
