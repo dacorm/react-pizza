@@ -1,30 +1,40 @@
 .root {
   position: relative;
-  width: 60%;
+  left: -120px;
 }
 
 .input {
-  border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 12px 20px;
-  width: calc(75% - 40px);
+  padding-left: 42px;
+  width: 400px;
   border-radius: 10px;
   font-size: 16px;
-  transition: .15s ease-in-out;
 
   &:focus {
-    border: 1px solid rgba(0, 0, 0, .4);
-    width: calc(85% - 40px);;
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
 
 .icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
   position: absolute;
-  top: 6px;
-  right: 95px;
-  opacity: .3;
+  left: 14px;
+  top: 12px;
+}
+
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 15px;
   cursor: pointer;
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 }

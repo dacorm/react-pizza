@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="fix: deploy2">
-      <change afterPath="$PROJECT_DIR$/src/components/CartEmpty.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" afterDir="false" />
+    <list default="true" id="d5968668-764e-485f-8e2a-6882f8d39ee7" name="Changes" comment="feat: almost all functional">
+      <change afterPath="$PROJECT_DIR$/src/components/CartEmpty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFoundBlock/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/Skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CartEmpty.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CartItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFoundBlock/NotFoundBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFoundBlock/NotFoundBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFoundBlock/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Paggination/Paggination.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Paggination/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/Skeleton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFound.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,26 +57,32 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="29cQuExEgX7EZaX2KG3qqk6kf1G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liveHTML" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\user\dev\react-pizza\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\dev\react-pizza\src" />
+      <recent name="C:\Users\user\dev\react-pizza" />
       <recent name="C:\Users\user\dev\react-pizza\src\redux\slices" />
       <recent name="C:\Users\user\dev\react-pizza\src\components\PizzaBlock" />
       <recent name="C:\Users\user\dev\react-pizza\src\assets" />
-      <recent name="C:\Users\user\dev\react-pizza\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -110,7 +140,8 @@
       <workItem from="1656761260277" duration="4351000" />
       <workItem from="1656769140315" duration="3357000" />
       <workItem from="1656776068302" duration="8107000" />
-      <workItem from="1656844063983" duration="2950000" />
+      <workItem from="1656844063983" duration="5621000" />
+      <workItem from="1656859664110" duration="1260000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pizza online store create">
       <created>1653418426341</created>
@@ -224,11 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1656764148975</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: almost all functional">
+      <created>1656848224026</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656848224026</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Sort.jsx" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -243,6 +286,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: pizza online store create" />
     <MESSAGE value="feat: switch categories" />
     <MESSAGE value="feat: switch pizza types" />
@@ -258,6 +302,7 @@
     <MESSAGE value="feat: redux" />
     <MESSAGE value="fix: deploy" />
     <MESSAGE value="fix: deploy2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: deploy2" />
+    <MESSAGE value="feat: almost all functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: almost all functional" />
   </component>
 </project>
