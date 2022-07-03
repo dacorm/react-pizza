@@ -331,6 +331,9 @@ body {
     margin: 0 auto;
     width: 560px;
     text-align: center;
+    @media screen and (max-width: 767px) {
+      width: 300px;
+    }
 
     h2 {
       font-size: 32px;
@@ -353,6 +356,10 @@ body {
       display: block;
       width: 300px;
       margin: 45px auto 60px;
+
+      @media screen and (max-width: 767px) {
+        width: 150px;
+      }
     }
 
     .button--black {
